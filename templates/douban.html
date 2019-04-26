@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+<p align="center"><font color="blue" size="20">豆瓣电影top250</font></p>
+
+{% for foo in mov_list %}
+    <tr>
+        <td><p align="center"><font color="#a52a2a">{{foo.moviename}}</font></p></td>
+    </tr>
+{% endfor %}
+</table>
+</body>
+</html>
